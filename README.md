@@ -44,4 +44,15 @@ Ensure you have the following installed:
    DB=your-mongodb-url
    MAPTILER_API_KEY=your-maptile-api-key
    
-   
+#### To get the required keys:
+
+    -Cloudinary: Sign up at Cloudinary to get your CLOUDINARY_CLOUD_NAME, CLOUDINARY_KEY, and CLOUDINARY_SECRET.
+    -MongoDB: Sign up at MongoDB Atlas to get your MongoDB connection string (DB).
+    -MapTiler: Sign up at MapTiler to get your MAPTILER_API_KEY.
+4. Seed the database (optional):
+   ```bash
+   node seeds/index.js
+5. Start the application:
+   ```bash
+   node app.js
+6. Open your browser and visit http://localhost:3000
